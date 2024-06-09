@@ -1,0 +1,27 @@
+
+  #inventory_container {
+    flex-wrap: wrap;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(225px, 1fr) );
+    gap: 12px 12px;
+  }
+  
+  #inventory_container li {
+    flex: 1;
+    list-style: none;
+  
+  }
+
+
+#inventory_container img {
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid;
+  }
+
+  .item_price {
+    color: blueviolet;
+  }
+  

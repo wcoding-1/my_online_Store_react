@@ -1,0 +1,9 @@
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+form input {
+    padding: 15px 20%;
+    border-radius: 30px;
+}
